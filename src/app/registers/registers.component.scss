@@ -1,0 +1,26 @@
+.card{
+    width: 600px;
+    height: 600px;
+    margin-left: 32rem;
+    margin-top: 3rem;
+}
+.header{
+    background-color: rgb(246, 86, 86);
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px;
+}
+.body {
+    text-align: center;
+}
+.body input{
+    margin-left: 3px;
+    margin-top: 3rem;
+}
+.footer{
+    padding: 5rem;
+}
+.footer button{
+    margin-left: 4rem;
+    text-align: center;
+}

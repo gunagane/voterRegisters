@@ -1,0 +1,53 @@
+<div class="card">
+    <div class="header">
+        <h1>REGISTER FORM</h1>
+    </div>
+    <form [formGroup]="form" (ngSubmit)="submit()">
+    <div class="body">
+        <div class="row">
+            <div class="col-6">
+                <label>First Name</label>
+                <input type="text" formControlName="firstName">
+            </div>
+                <div class="col-6">
+                <label>Last Name</label>
+                <input type="text" formControlName="lastName">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <label>Age</label>
+                <input type="text" formControlName="age">
+                </div>
+            <div class="col-6">
+                <label>Adhar No</label>
+                <input type="text" formControlName="adharNo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+        <label>Gender</label>
+            <input type="radio" value="male" formControlName="gender">Male
+            <input type="radio" value="female" formControlName="gender">Female
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="footer">
+                <button type="submit" class="btn btn-primary">Register</button>
+                <button type="button" class="btn btn-danger">Cancle</button>
+            </div>
+        </div>
+    </div>
+</div>
+</form>
+    
+
+
+
+
+
+       
+
+
+    

@@ -1,0 +1,15 @@
+<div class="card">
+    <form [formGroup]="form" (ngSubmit)="submit()">
+    <div class="header">LOGIN HERE</div>
+    <div class="body">
+        <label>Enter UserName</label>
+        <input type="text" formControlName="userName">
+        <label>Enter Password</label>
+        <input type="password" formControlName="password">
+    </div>
+    <div class="footer">
+        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="button" class="btn btn-danger">Cancle</button>
+    </div>
+</form>
+</div>
